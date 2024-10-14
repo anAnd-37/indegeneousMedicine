@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f0f0f0">
+
+    <!-- Toolbar -->
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimary"
+        android:elevation="4dp"
+        android:theme="@style/ThemeOverlay.AppCompat.ActionBar"
+        android:popupTheme="@style/ThemeOverlay.AppCompat.Light" />
+
+    <TextView
+        android:id="@+id/textViewTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/title_user_info"
+        android:textSize="24sp"
+        android:textColor="#007bff"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="24dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_below="@id/textViewTitle"
+        android:layout_marginTop="24dp"
+        android:padding="16dp"
+        android:background="#ffffff">
+
+        <EditText
+            android:id="@+id/editTextName"
+            style="@style/EditTextView"
+            android:hint="@string/hint_name" />
+
+        <EditText
+            android:id="@+id/editTextAge"
+            style="@style/EditTextView"
+            android:hint="@string/hint_age" />
+
+        <EditText
+            android:id="@+id/editTextAreaSince"
+            style="@style/EditTextView"
+            android:hint="@string/hint_area_since" />
+
+        <EditText
+            android:id="@+id/editTextAadhar"
+            style="@style/EditTextView"
+            android:hint="@string/hint_aadhar_number" />
+
+        <EditText
+            android:id="@+id/editTextPhoneNumber"
+            style="@style/EditTextView"
+            android:hint="@string/hint_phone_number" />
+
+        <EditText
+            android:id="@+id/editTextAddress"
+            style="@style/EditTextView"
+            android:hint="@string/hint_address" />
+
+        <EditText
+            android:id="@+id/editTextPan"
+            style="@style/EditTextView"
+            android:hint="@string/hint_pan_number" />
+
+        <Button
+            android:id="@+id/buttonSubmit"
+            style="@style/ButtonStyle"
+            android:text="@string/button_submit" />
+    </LinearLayout>
+
+</RelativeLayout>
+

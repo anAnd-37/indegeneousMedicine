@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="16dp"
+    android:background="@color/background_color"
+    tools:context=".LoginLogic">
+
+    <!-- Logo Image with elevation for shadow effect -->
+    <ImageView
+        android:layout_width="124dp"
+        android:layout_height="124dp"
+        android:layout_marginBottom="24dp"
+        android:src="@drawable/ic_login_icon"
+        android:elevation="8dp"
+        android:transitionName="logoTransition"/>
+
+    <!-- Animated Google Sign-In Button -->
+    <Button
+        android:id="@+id/btn_google_signin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/sign_in_with_google"
+        android:textAllCaps="false"
+        android:paddingVertical="12dp"
+        android:paddingHorizontal="16dp"
+        android:textSize="16sp"
+        android:background="@drawable/btn_google_signin_background"
+        android:textColor="#ffffff"
+        android:gravity="center"
+        android:elevation="4dp"
+        android:transitionName="buttonTransition"/>
+
+    <!-- Animation drawable -->
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/animation_loading"
+        android:visibility="gone"
+        android:id="@+id/loading_animation"/>
+</LinearLayout>

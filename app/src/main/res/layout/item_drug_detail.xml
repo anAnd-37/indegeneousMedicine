@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="8dp">
+
+    <!-- Display Vernacular Name in bold, as the main item title -->
+    <TextView
+        android:id="@+id/vernacularNameTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/vernacular_name"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/scientificNameTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/scientific_Name"
+        android:textSize="14sp" />
+
+    <ImageView
+        android:id="@+id/photographImageView"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:contentDescription="@string/photograph"
+        android:scaleType="centerCrop"
+        android:visibility="gone" />
+
+    <!-- Medicinal Use Title (Less Attention-Seeking) -->
+    <TextView
+        android:id="@+id/medicinalUseTitleTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/medicinal_use"
+        android:textSize="14sp"
+        android:textStyle="normal"
+        android:textColor="@android:color/darker_gray"
+        android:layout_marginTop="8dp" />
+
+    <!-- Medicinal Use Value (More Attention-Seeking) -->
+    <TextView
+        android:id="@+id/medicinalUseTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/medicinal_use_value"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:textColor="@android:color/holo_red_dark"
+        android:layout_marginTop="4dp" />
+
+</LinearLayout>

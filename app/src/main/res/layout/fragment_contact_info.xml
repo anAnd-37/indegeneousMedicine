@@ -1,0 +1,30 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="#ffffff">
+
+    <EditText
+        android:id="@+id/editTextPhoneNumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/EditTextView"
+        android:hint="@string/phone_hint" />
+
+    <EditText
+        android:id="@+id/editTextPan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/EditTextView"
+        android:hint="@string/pan_hint" />
+
+    <Button
+        android:id="@+id/buttonSubmit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:text="@string/submit"
+        style="@style/ButtonStyle2" />
+
+</LinearLayout>

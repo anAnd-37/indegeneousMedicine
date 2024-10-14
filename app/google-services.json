@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "756726594856",
+    "firebase_url": "https://indigenous-medicine-dummy-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "indigenous-medicine-dummy",
+    "storage_bucket": "indigenous-medicine-dummy.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:756726594856:android:63b6f6aa8c427c9ffea41d",
+        "android_client_info": {
+          "package_name": "com.example.indegenousmedicine2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "756726594856-l979s32koj3cjutmcci595qbmkgeh0fa.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.indegenousmedicine2",
+            "certificate_hash": "1d10261526e868fe29ec8030f239baf782f54d35"
+          }
+        },
+        {
+          "client_id": "756726594856-fd8g6ugu6o8gjlm6f8osahqbogiaoa24.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD3RO1RncqF9alW1-W4N-bTI4mL5YM6usU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "756726594856-fd8g6ugu6o8gjlm6f8osahqbogiaoa24.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

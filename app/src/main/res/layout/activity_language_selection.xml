@@ -1,0 +1,67 @@
+<!-- activity_language_selection.xml -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="@color/white">
+
+    <TextView
+        android:id="@+id/text_language_selection"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/select_language"
+        android:textSize="20sp"
+        android:textColor="@color/black"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:layout_marginBottom="30dp"
+        android:animation="@anim/slide_up" />
+
+    <RadioGroup
+        android:id="@+id/radio_group_language"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/text_language_selection"
+        android:layout_centerHorizontal="true"
+        android:orientation="vertical"
+        android:layout_marginBottom="30dp">
+
+        <RadioButton
+            android:id="@+id/radio_english"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/english"
+            android:textSize="18sp"
+            android:textColor="@color/black"
+            android:checked="true" />
+
+        <RadioButton
+            android:id="@+id/radio_assamese"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/assamese"
+            android:textSize="18sp"
+            android:textColor="@color/black" />
+
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/btn_select_language"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/select_language_button"
+        android:textSize="18sp"
+        android:textColor="@color/white"
+        android:background="@drawable/button_background"
+        android:layout_below="@id/radio_group_language"
+        android:layout_centerHorizontal="true"
+        android:paddingStart="30dp"
+        android:paddingEnd="30dp"
+        android:paddingTop="12dp"
+        android:paddingBottom="12dp"
+        android:stateListAnimator="@null"
+        android:layout_marginTop="30dp"
+        android:animation="@anim/fade_in" />
+
+</RelativeLayout>
